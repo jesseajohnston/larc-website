@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <div class="page-header bg-light py-4">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="col-lg-8">
+        {{ with .Content }}{{ . }}{{ end }}
+        <ul class="list-unstyled">
+          {{ range .Pages }}
+            <li class="post-list__item py-4 border-bottom">
+              <h2 class="h4"><a class="text-decoration-none" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+              {{ with .Date }}<p class="text-muted small mb-2"><time datetime="{{ . | time.Format "2006-01-02T15:04:05-07:00" }}">{{ . | time.Format ":date_long" }}</time></p>{{ end }}
+              <p class="mb-0">{{ .Summary }}</p>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+{{ end }}

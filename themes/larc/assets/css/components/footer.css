@@ -1,0 +1,18 @@
+.site-footer {
+  background: var(--blue-400);
+  margin-top: 4rem;
+}
+
+.site-footer h1,
+.site-footer h2,
+.site-footer h3 {
+  color: #fff;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.site-footer .nav-link {
+  color: #fff;
+}

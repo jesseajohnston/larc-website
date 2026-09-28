@@ -1,0 +1,44 @@
+.hero {
+  background-color: var(--blue-400);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 22rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 780px) {
+  .hero {
+    /* iOS Safari does not support background-attachment: fixed */
+    background-attachment: scroll;
+    min-height: 18rem;
+  }
+}
+
+.hero h1,
+.hero__eyebrow {
+  color: #fff;
+}
+
+.hero__eyebrow {
+  color: var(--maize-300);
+  letter-spacing: 0.08em;
+}
+
+.card--accent {
+  border-top: 4px solid var(--maize-400);
+  transition: box-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.card--accent:hover,
+.card--accent:focus {
+  box-shadow: 0 0.5rem 1rem rgba(0, 39, 76, 0.12);
+  transform: translateY(-2px);
+}

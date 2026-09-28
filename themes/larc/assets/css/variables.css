@@ -1,0 +1,40 @@
+:root {
+  /* U-M Library Design System color tokens */
+  --blue-100: #f7f8f9;
+  --blue-200: #b2bec9;
+  --blue-300: #4c6781;
+  --blue-400: #00274c;
+  --blue-500: #001324;
+
+  --maize-100: #fff9e6;
+  --maize-200: #ffea9b;
+  --maize-300: #ffda50;
+  --maize-400: #ffcb05;
+  --maize-500: #eaba02;
+
+  --teal-400: #1d7491;
+  --teal-500: #106684;
+
+  --neutral-100: #e5e9ed;
+  --neutral-200: #8a96a1;
+  --neutral-300: #637381;
+  --neutral-350: #384655;
+  --neutral-400: #212b36;
+  --neutral-500: #06080a;
+
+  /* Semantic aliases */
+  --color-accent: var(--maize-400);
+  --color-surface-alt: var(--blue-100);
+
+  /* Bootstrap overrides */
+  --bs-font-sans-serif: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-color: var(--neutral-400);
+  --bs-heading-color: var(--blue-400);
+  --bs-primary: var(--blue-400);
+  --bs-primary-rgb: 0, 39, 76;
+  --bs-link-color: var(--blue-400);
+  --bs-link-color-rgb: 0, 39, 76;
+  --bs-link-hover-color: var(--teal-500);
+  --bs-link-hover-color-rgb: 16, 102, 132;
+}

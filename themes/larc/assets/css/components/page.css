@@ -1,0 +1,28 @@
+.post-list__item:last-child {
+  border-bottom: 0 !important;
+}
+
+.roster-note {
+  background: var(--blue-400);
+}
+
+.people-group-band {
+  background: var(--teal-500);
+}
+
+.person-row:last-child {
+  border-bottom: 0 !important;
+}
+
+.person-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  background: var(--blue-300);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+}

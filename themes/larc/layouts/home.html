@@ -1,0 +1,55 @@
+{{ define "main" }}
+  <div
+    class="hero text-white"
+    {{- with resources.Get "images/leinweber-west-with-tower-cropped.png" }}
+      style="background-image: linear-gradient(135deg, rgba(0, 39, 76, 0.85) 0%, rgba(0, 19, 36, 0.85) 100%), url('{{ .RelPermalink }}');"
+    {{- end }}
+  >
+    <div class="container py-5 text-center">
+      <h1 class="display-4 fw-bold hero__title">{{ site.Params.tagline }}</h1>
+      <p class="text-uppercase fw-bold small mt-2 mb-0 hero__eyebrow">{{ site.Params.subtitle }}</p>
+    </div>
+  </div>
+
+  <div class="py-5">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-center">About</h2>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Get involved</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <a class="card h-100 text-decoration-none card--accent" href="{{ "activities" | relURL }}">
+            <div class="card-body">
+              <h3 class="card-title h5">Activities</h3>
+              <p class="card-text text-body">Our research seminar meets each Fall and Winter semester, alongside the DAIS speaker series and symposia.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="card h-100 text-decoration-none card--accent" href="{{ "people" | relURL }}">
+            <div class="card-body">
+              <h3 class="card-title h5">People</h3>
+              <p class="card-text text-body">Meet the faculty, PhD students, and campus affiliates who make up the LARC Research Group.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="card h-100 text-decoration-none card--accent" href="{{ "news" | relURL }}">
+            <div class="card-body">
+              <h3 class="card-title h5">News</h3>
+              <p class="card-text text-body">Read the latest updates from LARC, including speaker announcements and group happenings.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+{{ end }}

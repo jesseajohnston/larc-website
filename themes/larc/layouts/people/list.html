@@ -1,0 +1,55 @@
+{{ define "main" }}
+  <div class="page-header bg-light py-4">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+    </div>
+  </div>
+
+  {{ with .Params.rosterNote }}
+    <div class="roster-note text-white py-2">
+      <div class="container">
+        <p class="mb-0 small">{{ . }}</p>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ with .Content }}<div class="container pt-5"><div class="col-lg-8">{{ . }}</div></div>{{ end }}
+
+  {{ $groups := slice
+    (dict "key" "faculty" "label" "Faculty")
+    (dict "key" "phd_students" "label" "PhD Students")
+    (dict "key" "campus_affiliates" "label" "Campus Affiliates")
+  }}
+
+  {{ range $groups }}
+    {{ $label := .label }}
+    {{ $people := index hugo.Data.people .key }}
+    {{ if $people }}
+      <div class="people-group-band py-3">
+        <div class="container">
+          <h2 class="h3 text-white mb-0">{{ $label }}</h2>
+        </div>
+      </div>
+      <div class="py-4">
+        <div class="container">
+          {{ range $people }}
+            <div class="row person-row py-4 border-bottom align-items-start">
+              <div class="col-auto">
+                <div class="person-avatar" aria-hidden="true">{{ substr .name 0 1 }}</div>
+              </div>
+              <div class="col">
+                <h3 class="h5 mb-2">{{ .name }}</h3>
+                <p class="mb-2">{{ .bio }}</p>
+                {{ with .links }}
+                  <p class="mb-0 small">
+                    {{ range $i, $link := . }}{{ if $i }} &middot; {{ end }}<a href="{{ $link.url }}">{{ $link.label }}</a>{{ end }}
+                  </p>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

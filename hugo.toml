@@ -1,0 +1,63 @@
+baseURL = 'https://larc.si.umich.edu/'
+locale = 'en-us'
+title = 'LARC Research Group'
+theme = 'larc'
+
+enableRobotsTXT = true
+
+[params]
+  tagline = "Libraries, Archives, and Curation"
+  subtitle = "A UMSI Research Group"
+  department = "University of Michigan School of Information"
+  address = "2200 Hayward Street, Ann Arbor, MI 48109"
+  mapsURL = "https://maps.google.com/?q=2200+Hayward+Street,+Ann+Arbor,+MI+48109"
+  umsiURL = "https://si.umich.edu"
+
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Activities"
+  pageRef = "/activities"
+  weight = 20
+
+[[menus.main]]
+  identifier = "dais"
+  name = "DAIS"
+  pageRef = "/activities/dais"
+  parent = "Activities"
+  weight = 21
+
+[[menus.main]]
+  name = "People"
+  pageRef = "/people"
+  weight = 30
+
+[[menus.main]]
+  name = "News"
+  pageRef = "/news"
+  weight = 40
+
+#[[menus.footer]]
+#  name = "Report abuse"
+#  url = "https://umich.edu/report-abuse/"
+#  weight = 10
+#
+#[[menus.footer]]
+#  name = "Privacy policy"
+#  url = "https://umich.edu/about/privacy/"
+#  weight = 20
+#
+[[menus.footer]]
+  name = "University of Michigan School of Information"
+  url = "https://si.umich.edu/"
+  weight = 20
+#[[menus.footer]]
+#  name = "University of Michigan"
+#  url = "https://umich.edu"
+#  weight = 30
+
+[markup.goldmark.renderer]
+  unsafe = true

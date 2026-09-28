@@ -1,0 +1,100 @@
+faculty:
+  - name: Dallas Card
+    bio: "Dallas Card is an Assistant Professor in the School of Information, where he works at the intersection of machine learning, natural language processing, and data science. Prior to joining the University of Michigan, he was a postdoctoral scholar with the Stanford NLP group and Data Science Institute. He holds a PhD in Machine Learning from Carnegie Mellon University."
+    links: []
+  - name: Rebecca Frank
+    bio: "Rebecca D. Frank is an Assistant Professor at the University of Michigan School of Information, and is affiliated with the Einstein Center Digital Future in Berlin, Germany. Her research examines the social construction of risk in trustworthy digital repository audit and certification. She also conducts research in the areas of open data, digital preservation, digital curation, and data reuse, focusing on social and ethical barriers that limit or prevent the preservation, sharing, and reuse of digital information. She has a PhD from the University of Michigan School of Information, an MSI from the University of Michigan School of Information with a specialization in Preservation of Information, and a BA in Organizational Studies from the University of Michigan. Her work has been supported by the Deutsche Stiftung Friedensforschung (German Foundation for Peace Research), the Einstein Centre Digital Future, the InfraLab Berlin, the National Science Foundation (United States), and the Australian Academy of Science."
+    links:
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/rebecca-frank"
+  - name: Kristin Fontichiaro
+    bio: "Kristin Fontichiaro is a clinical assistant professor at the University of Michigan School of Information. She teaches courses in contextual inquiry and user needs assessment; makerspace culture and tools; information literacy; and library and information science."
+    links:
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/kristin-fontichiaro"
+  - name: Patricia Garcia
+    bio: "Patricia Garcia is an associate professor in the School of Information at the University of Michigan. She conducts sociocultural research on race, gender, and technology – with a special interest in studying how the use of culturally responsive computing practices can increase girls' participation in STEM activities. She is currently collaborating with public libraries in Michigan, Arizona, and California to develop a low-resource model for promoting culturally responsive computing programs in public libraries."
+    links:
+      - label: "ORCID: 0000-0001-7736-6076"
+        url: "https://orcid.org/0000-0001-7736-6076"
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/patricia-garcia"
+  - name: Kishonna Gray
+    bio: "Kishonna L. Gray is a Professor in the School of Information at the University of Michigan. Dr. Gray is the author/co-editor of Intersectional Tech, Race, Gender, and Deviance in Xbox Live, Woke Gaming and Feminism in Play. Dr. Gray is a highly sought-after speaker and regularly addresses both academic and industry audiences such as at the Game Developers Conference. She is the winner of a number of awards over the years, including The Evelyn Gilbert Unsung Hero Award and the Blacks in Gaming Educator Award."
+    links:
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/kishonna-gray"
+  - name: Libby Hemphill
+    bio: "Libby Hemphill is an Associate Professor at UMSI and a Research Associate Professor at the Institute for Social Research. Hemphill also directs the Social Media Archive at the Inter-University Consortium for Political and Social Research (ICPSR). Hemphill's research focuses on social media, civic engagement, automated moderation techniques, fan studies, political communication, digital curation and data stewardship."
+    links:
+      - label: "libbyh.com"
+        url: "http://www.libbyh.com/"
+      - label: "ORCID: 0000-0002-3793-7281"
+        url: "https://orcid.org/0000-0002-3793-7281"
+  - name: Jesse Johnston
+    bio: "Jesse Johnston joined UMSI in 2022 as a Clinical Assistant Professor, where he teaches and researches metadata, digital preservation and curation, and LIS topics. Johnston has been active in the cultural heritage field as an administrator, civil servant, and information professional. As senior librarian for digital content at the Library of Congress, he managed policy development and training initiatives at the Library's Digital Collections Management unit established in 2018. He previously served as a senior program officer for preservation and access at the National Endowment for the Humanities, and was an archivist at the Ralph Rinzler Folklife Archives and Collections at the Smithsonian Center for Cultural Heritage. He has also been an adjunct faculty member at the University of Maryland iSchool, George Mason University, and Bowling Green State University. Johnston researches federal policy for digital records, metadata and API access to collections, and user practices in sound and video collections."
+    links:
+      - label: "jesseajohnston.net"
+        url: "https://www.jesseajohnston.net/"
+      - label: "ORCID: 0000-0003-2617-0166"
+        url: "https://orcid.org/0000-0003-2617-0166"
+  - name: Anthea Josias
+    bio: "Dr. Josias is a Lecturer IV in the School of Information and teaches courses in archival science, preservation management, and assessment in cultural institutions."
+    links:
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/anthea-josias"
+  - name: Ricardo Punzalan
+    bio: "Ricardo Punzalan, Ph.D., previously taught at the University of the Philippines School of Library and Information Studies and the University of Maryland College of Information Studies. He has worked on a variety of archival projects in the Philippines, which include establishing the archives of a former leprosarium and curated a museum exhibit for the centennial of its founding as a segregation facility. He co-directs the ReConnect/ReCollect Project, which surveyed the Philippine Collections at the University of Michigan and initiated a program to digitally connect, return, and reparatively describe these collections with source communities. He has served on the Council of the Society of American Archivists, the organization's highest governing body, and in 2023 was named a Fellow of the Society of American Archivists. He currently directs UM's Museum Studies Program in addition to serving on the faculty of UMSI."
+    links:
+      - label: "ORCID: 0000-0003-1384-0845"
+        url: "https://orcid.org/0000-0003-1384-0845"
+  - name: Megan Threats
+    bio: "Dr. Megan Threats is an Assistant Professor at the University of Michigan School of Information. She is an interdisciplinary scholar with a background in library and information science and public health. Her research focuses on historically marginalized communities' health information and technology practices, particularly on Black and LGBTQ communities. She investigates structural and social determinants of information and health inequities, particularly intersectional discrimination. She uses community-based methods to design information resources and technologies to reduce disparities and improve marginalized communities' health and well-being. Her research has been published in high-ranking peer-reviewed journals, including the Journal of the Association for Information Science and Technology and the Journal of Medical Internet Research. Her research has received funding from the National Institute on Minority Health and Health Disparities, and she is the recipient of a U.S. Institute of Museum and Library Services (IMLS) Laura Bush 21st Century Librarian Early Career Research Development Grant."
+    links:
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/megan-threats"
+  - name: David Wallace
+    bio: "David Wallace is Clinical Associate Professor at UMSI and has published and presented in a wide range of professional forums, examining: recordkeeping and accountability; archiving and the shaping of the present and the past; archival social justice; freedom of information; government secrecy; professional ethics; electronic records management; and graduate archival education. Wallace has served as lead editor and contributor to Archives, Recordkeeping & Social Justice (2020); editor of a special double issue of Archival Science on \"Archives and the Ethics of Memory Construction\" (2011); co-editor of Archives and the Public Good: Accountability and Records in Modern Society (2002), and served as the series technical editor for twelve volumes of the National Security Archive's The Making of U.S. Policy series (1989-1992)."
+    links: []
+
+phd_students:
+  - name: Nazelie Doghramadjian
+    bio: "Nazelie Doghramadjian is a PhD candidate in the School of Information at the University of Michigan. She holds a B.A. in Humanities from Villanova University. Before starting graduate school, Nazelie worked for a variety of non-profit organizations including Data & Society Research Institute, Maine Writers & Publishers Alliance, and A Better Tech NYU. Her research is currently focused on personal recordkeeping practices of Armenian women in metro-Detroit."
+    links:
+      - label: "ORCID: 0009-0001-2310-2080"
+        url: "https://orcid.org/0009-0001-2310-2080"
+  - name: Lavinia Dunagan
+    bio: "Lavinia Dunagan is a doctoral student in the School of Information at the University of Michigan. She works on machine learning and digital humanities topics and works with Dallas Card at UMSI."
+    links: []
+  - name: Jian-Sin Lee
+    bio: "PhD Student, University of Michigan School of Information."
+    links:
+      - label: "UMSI profile"
+        url: "https://www.si.umich.edu/people/jian-sin-lee"
+  - name: Yvette Ramirez
+    bio: "PhD Student, University of Michigan School of Information."
+    links:
+      - label: "UMSI profile"
+        url: "https://www.si.umich.edu/people/yvette-ramirez"
+  - name: Suanmuanlian Tonsing
+    bio: "Suanmuanlian Tonsing is a PhD candidate researching how digitally mediated archival misrepresentations on digital platforms impact the lifeworlds of Indigenous peoples. He is a member of the indigenous Paite-Zomi tribe, part of the Zo ancestry in the highlands of northeast India. Using Indigenous methodologies, he bridges archival science and Indigenous sociology in his work."
+    links:
+      - label: "UMSI profile"
+        url: "https://www.si.umich.edu/people/suanmuanlian-tonsing"
+  - name: Morgan Wofford
+    bio: "Morgan Wofford is a PhD Candidate in the School of Information. Her research focuses on data reuse, knowledge infrastructures, and citation practices using qualitative techniques. She is particularly interested in how diverse groups—such as anthropogenic climate change skeptics, environmental justice organizations, businesses, and large language model creators—reuse open research data, aiming to create more equitable and culturally meaningful data access for broader, responsible use. She is especially interested in considering all stakeholders' needs in this process, including data donors, data creators or collectors, intermediaries, repositories, and reusers themselves."
+    links:
+      - label: "ORCID: 0000-0002-4688-0133"
+        url: "https://orcid.org/0000-0002-4688-0133"
+      - label: "UMSI profile"
+        url: "https://www.si.umich.edu/people/morgan-wofford"
+
+campus_affiliates:
+  - name: Alexis Antracoli
+    bio: "Alexis Antracoli is the Director of the Bentley Historical Library at the University of Michigan."
+    links: []
+  - name: Lisa R. Carter
+    bio: "Lisa Carter is the University Librarian and Dean of Libraries at the University of Michigan. Carter is also a Clinical Professor at the School of Information."
+    links:
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/lisa-carter"
