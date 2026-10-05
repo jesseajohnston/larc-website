@@ -16,6 +16,12 @@ carried over (not placeholder copy).
 - **Content owners**: Jesse Johnston and Lavinia Dunagan — the people to check with on
   anything content-accuracy related (bios, roster changes, news items).
 
+## Working conventions
+
+Full list in `AGENTS.md` (keep both in sync as conventions change). Notably:
+**framework behavior questions get resolved via official docs, not by poking at
+generated output or trial-and-error rebuilding.**
+
 ## Status
 
 Core migration is done and deploying. Site structure:
