@@ -6,7 +6,7 @@ theme = 'larc'
 enableRobotsTXT = true
 
 [params]
-  tagline = "Libraries, Archives, and Curation"
+  tagline = "Libraries, Archives, and digital Curation"
   subtitle = "A UMSI Research Group"
   department = "University of Michigan School of Information"
   address = "2200 Hayward Street, Ann Arbor, MI 48109"
