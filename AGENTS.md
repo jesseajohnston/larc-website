@@ -66,13 +66,9 @@ assets/images/          Project-level image assets (logo, hero photo) — refere
 - Images go in `assets/images/` (project root, not inside the theme) and are referenced
   from templates with `resources.Get "images/<filename>"` so Hugo Pipes can fingerprint
   them.
-- **When a Hugo (or Bootstrap, or any framework) function behaves unexpectedly, consult
+- **Prefer documented, and built-in tools from any framework in use (including Hugo, Bootstrap, the U-M design tools, or similar). Do not reverse engineer or rebuild functions that already exist there. Follow framework suggested conventions in all cases, unless there is no extant solution. If a function behaves unexpectedly, consult
   the official docs for that function first** — don't reverse-engineer the behavior by
-  grepping generated HTML or trial-and-error rebuilding variants. Example: `relURL`/
-  `relLangURL` with a leading slash resolve relative to the host root and silently drop
-  any baseURL subpath (e.g. a GitHub Pages project URL like `/larc-website/`) — this is
-  documented, not a bug to rediscover empirically. The fix was `site.Home.RelPermalink`
-  instead of `"/" | relLangURL`. Once the docs confirm the fix, apply it directly; don't
+  grepping generated HTML or trial-and-error rebuilding variants. Once the docs confirm the fix, apply it directly; don't
   pad it out with a reflexive verification build for a trivial, doc-confirmed change.
 
 ## Local dev

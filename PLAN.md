@@ -20,7 +20,11 @@ carried over (not placeholder copy).
 
 Full list in `AGENTS.md` (keep both in sync as conventions change). Notably:
 **framework behavior questions get resolved via official docs, not by poking at
-generated output or trial-and-error rebuilding.**
+generated output or trial-and-error rebuilding.** Example: `relURL`/
+  `relLangURL` with a leading slash resolve relative to the host root and silently drop
+  any baseURL subpath (e.g. a GitHub Pages project URL like `/larc-website/`) — this is
+  documented, not a bug to rediscover empirically. The fix was `site.Home.RelPermalink`
+  instead of `"/" | relLangURL`. 
 
 ## Status
 
