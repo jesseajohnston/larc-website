@@ -25,9 +25,9 @@
     {{ $label := .label }}
     {{ $people := index hugo.Data.people .key }}
     {{ if $people }}
-      <div class="people-group-band py-3">
+      <div class="people-group-band py-5">
         <div class="container">
-          <h2 class="h3 text-white mb-0">{{ $label }}</h2>
+          <h2 class="display-5 text-white mb-0">{{ $label }}</h2>
         </div>
       </div>
       <div class="py-4">
@@ -35,7 +35,17 @@
           {{ range $people }}
             <div class="row person-row py-4 border-bottom align-items-start">
               <div class="col-auto">
-                <div class="person-avatar" aria-hidden="true">{{ substr .name 0 1 }}</div>
+                {{ $photo := "" }}
+                {{ with .photo }}{{ $photo = resources.Get (printf "images/people/%s" .) }}{{ end }}
+                {{ if $photo }}
+                  <img class="img-fluid img-thumbnail person-photo" src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" alt="{{ .name }}">
+                {{ else }}
+                  {{ with resources.Get "images/umsi_sig_INFORMAL_maize-blue.png" }}
+                    <div class="img-thumbnail person-photo person-photo--placeholder d-flex align-items-center justify-content-center">
+                      <img class="img-fluid" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="University of Michigan School of Information">
+                    </div>
+                  {{ end }}
+                {{ end }}
               </div>
               <div class="col">
                 <h3 class="h5 mb-2">{{ .name }}</h3>

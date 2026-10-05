@@ -14,15 +14,18 @@
   border-bottom: 0 !important;
 }
 
-.person-avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 50%;
-  background: var(--blue-300);
-  color: #fff;
-  font-weight: 800;
-  font-size: 1.5rem;
+.person-photo {
+  width: 18rem;
+  height: auto;
+}
+
+.person-photo--placeholder {
+  aspect-ratio: 1 / 1;
+  padding: 1.5rem;
+}
+
+@media (max-width: 575.98px) {
+  .person-photo {
+    width: 10rem;
+  }
 }
