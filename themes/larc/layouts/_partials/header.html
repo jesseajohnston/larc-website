@@ -1,7 +1,7 @@
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <nav class="navbar navbar-expand-lg site-header">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center gap-2" href="{{ "/" | relLangURL }}">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="{{ site.Home.RelPermalink }}">
       {{- with resources.Get "images/umsi_sig_INFORMAL_maize-blue.png" }}
         <img class="site-header__logo" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="University of Michigan School of Information">
       {{- end }}
