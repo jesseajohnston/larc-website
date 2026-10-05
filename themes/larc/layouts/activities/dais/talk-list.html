@@ -1,0 +1,53 @@
+{{ define "main" }}
+  {{ with .Params.heroImage }}
+    {{ partial "hero.html" (dict
+      "title" $.Title
+      "eyebrow" $.Params.heroEyebrow
+      "image" .
+    ) }}
+  {{ else }}
+    <div class="page-header bg-light py-4">
+      <div class="container">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ with .Content }}
+    <div class="py-5">
+      <div class="container">
+        <div class="col-lg-8">{{ . }}</div>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ $talks := .Pages.ByDate.Reverse }}
+  {{ range $index, $talk := $talks }}
+    {{ $prevYear := 0 }}
+    {{ if gt $index 0 }}{{ $prevYear = (index $talks (sub $index 1)).Date.Year }}{{ end }}
+    {{ if ne $talk.Date.Year $prevYear }}
+      {{ if gt $index 0 }}</div></div>{{ end }}
+      <div class="section-band py-5">
+        <div class="container">
+          <h2 class="display-5 text-white mb-0">{{ $talk.Date.Year }}</h2>
+        </div>
+      </div>
+      <div class="py-4">
+        <div class="container">
+    {{ end }}
+          <div class="row person-row py-4 border-bottom align-items-start">
+            <div class="col">
+              <h3 class="h5 mb-1">{{ $talk.Title }}</h3>
+              <p class="small fw-bold text-body-secondary mb-2">
+                {{ $talk.Params.affiliation }}
+                &middot;
+                {{ with $talk.Params.eventDateDisplay }}{{ . }}{{ else }}{{ $talk.Date | time.Format ":date_long" }}{{ end }}
+              </p>
+              {{ with $talk.Params.talkTitle }}<p class="fst-italic mb-2">&ldquo;{{ . }}&rdquo;</p>{{ end }}
+              {{ $talk.Content }}
+              {{ with $talk.Params.acknowledgment }}<p class="small text-muted mt-2 mb-0">{{ . }}</p>{{ end }}
+            </div>
+          </div>
+  {{ end }}
+  {{ if gt (len $talks) 0 }}</div></div>{{ end }}
+{{ end }}
