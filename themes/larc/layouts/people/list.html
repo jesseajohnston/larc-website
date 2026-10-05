@@ -40,7 +40,11 @@
                 {{ if $photo }}
                   <img class="img-fluid img-thumbnail person-photo" src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" alt="{{ .name }}">
                 {{ else }}
-                  <div class="img-thumbnail person-photo person-photo--placeholder d-flex align-items-center justify-content-center bg-primary text-white fs-1 fw-bold" aria-hidden="true">{{ substr .name 0 1 }}</div>
+                  {{ with resources.Get "images/umsi_sig_INFORMAL_maize-blue.png" }}
+                    <div class="img-thumbnail person-photo person-photo--placeholder d-flex align-items-center justify-content-center">
+                      <img class="img-fluid" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="University of Michigan School of Information">
+                    </div>
+                  {{ end }}
                 {{ end }}
               </div>
               <div class="col">
