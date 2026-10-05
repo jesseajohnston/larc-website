@@ -57,3 +57,41 @@ If your person entry doesn't have any links, the `links` field will look like `l
 — replace that with the list format above.
 
 Links show up on the People page in the order they're listed, separated by a middle dot.
+
+## Add a banner/header photo to a page
+
+Any page can show a full-width photo banner (like the homepage) instead of the plain
+page header. To activate it:
+
+1. Add the image file to `assets/images/pages/`.
+2. Add `heroImage` (and optionally `heroEyebrow`, a short line shown above the title) to
+   that page's front matter:
+
+   ```yaml
+   ---
+   title: "DAIS: Data, Archives, and Information in Society"
+   heroImage: "pages/dais-banner.jpg"
+   heroEyebrow: "Activities"
+   ---
+   ```
+
+If `heroImage` is left out, the page just shows its normal plain header — nothing else
+needs to change.
+
+**Recommended image size**: **2400×900px**, roughly a **2.5:1 to 3:1** landscape aspect
+ratio. The banner stretches to the full width of the browser and crops to fill the
+available height, so:
+
+- Going much smaller than 2400px wide can look soft/blurry on large or high-DPI monitors.
+- Keep the main subject centered — the crop trims evenly from the edges first as the
+  screen gets narrower or wider than the image, so anything important near the edges
+  risks getting cut off on some screen sizes.
+
+Smaller sizes within the same ratio range are fine too, just more likely to look soft on
+very large/high-DPI screens:
+
+| Width  | Height range (2.5:1–3:1) | Example  |
+|--------|---------------------------|----------|
+| 2400px | 800–960px                 | 2400×900 |
+| 1900px | 633–760px                 | 1900×700 |
+| 1750px | 583–700px                 | 1750×650 |

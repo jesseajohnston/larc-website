@@ -1,9 +1,17 @@
 {{ define "main" }}
-  <div class="page-header bg-light py-4">
-    <div class="container">
-      <h1>{{ .Title }}</h1>
+  {{ with .Params.heroImage }}
+    {{ partial "hero.html" (dict
+      "title" $.Title
+      "eyebrow" $.Params.heroEyebrow
+      "image" .
+    ) }}
+  {{ else }}
+    <div class="page-header bg-light py-4">
+      <div class="container">
+        <h1>{{ .Title }}</h1>
+      </div>
     </div>
-  </div>
+  {{ end }}
   <div class="py-5">
     <div class="container">
       <div class="col-lg-8">

@@ -1,0 +1,26 @@
+{{- /*
+Renders a full-width photo banner with an overlay, title, and optional eyebrow text.
+
+@context {string} title The main heading text.
+@context {string} eyebrow Optional small text shown above the title.
+@context {string} image Path to the image under assets/images, e.g. "pages/dais-banner.jpg".
+
+@example: {{ partial "hero.html" (dict "title" "DAIS" "eyebrow" "Activities" "image" "pages/dais-banner.jpg") }}
+*/}}
+
+{{- $title := .title }}
+{{- $eyebrow := .eyebrow }}
+
+<div
+  class="hero text-white"
+  {{- with resources.Get (printf "images/%s" .image) }}
+    style="background-image: linear-gradient(135deg, rgba(33, 43, 54, 0.85) 0%, rgba(6, 8, 10, 0.85) 100%), url('{{ .RelPermalink }}');"
+  {{- end }}
+>
+  <div class="container py-5 text-center">
+    <h1 class="display-4 fw-bold hero__title">{{ $title }}</h1>
+    {{- with $eyebrow }}
+      <p class="text-uppercase fw-bold small mt-2 mb-0 hero__eyebrow">{{ . }}</p>
+    {{- end }}
+  </div>
+</div>

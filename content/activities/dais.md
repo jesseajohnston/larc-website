@@ -1,5 +1,7 @@
 ---
 title: "DAIS: Data, Archives, and Information in Society"
+heroImage: "pages/dais-banner.png"
+heroEyebrow: "Activities"
 ---
 
 DAIS is an annual speaker series coordinated by the LARC Research Group. It features speakers whose work advances understanding in topics related to archival studies, librarianship, digital curation, and data, as it is understood and critiqued within the context of information environments and social concerns.
