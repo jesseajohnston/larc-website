@@ -89,4 +89,18 @@ hugo --gc --minify   # production-equivalent build, outputs to public/
   a full local build at that version — template syntax that works on a newer local Hugo
   install can silently fail on an older pinned CI version.
 
+## Git setup
+
+Before pulling, set `main` to fast-forward-only locally — this is a per-clone git config
+setting, not something that can be committed to the repo, so each contributor needs to
+set it themselves once:
+
+```sh
+git config pull.ff only
+```
+
+This makes `git pull` refuse (rather than silently create a merge commit) if your local
+`main` has diverged from the remote — a useful tripwire given `main` auto-deploys via
+GitHub Actions on every push and should normally just be a straight line.
+
 See `PLAN.md` for project status/scope and `TODO.md` for the current outstanding task list.
