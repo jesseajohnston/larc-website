@@ -1,6 +1,7 @@
 ---
-title: "DAIS: Data, Archives, and Information in Society"
+title: "Data, Archives, and Information in Society"
 heroImage: "pages/dais_banner.png"
+heroEyebrow: DAIS
 layout: "talk-list"
 ---
 
