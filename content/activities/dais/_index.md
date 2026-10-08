@@ -1,7 +1,7 @@
 ---
 title: "Data, Archives, and Information in Society"
 heroImage: "pages/dais_banner.png"
-heroEyebrow: DAIS
+heroEyebrow: DAIS Speaker Series
 layout: "talk-list"
 ---
 
