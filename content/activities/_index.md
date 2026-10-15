@@ -8,4 +8,4 @@ The LARC research seminar occurs each Fall and Winter semester and offers a foru
 
 ## Symposia & speakers
 
-LARC sponsors and coordinates a series of speakers and symposia known as ["the DAIS," or Data, Archives, and Information in Society]({{< relref "activities/dais" >}}). We invite speakers to the DAIS whose work advances understanding in topics related to archives, curation, data, and libraries, as it is understood and critiqued within the context of information environments and social concerns.
+LARC sponsors and coordinates a series of speakers and symposia called [DAIS, or Data, Archives, and Information in Society]({{< relref "activities/dais" >}}). We invite speakers to the DAIS whose work advances understanding in topics related to archives, curation, data, and libraries, as it is understood and critiqued within the context of information environments and social concerns.
