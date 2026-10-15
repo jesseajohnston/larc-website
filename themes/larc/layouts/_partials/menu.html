@@ -16,14 +16,17 @@ Renders a Bootstrap navbar-nav for the given menu ID.
       {{- $isActive := $page.IsMenuCurrent .Menu . }}
       {{- $hasActiveChild := $page.HasMenuCurrent .Menu . }}
       {{- if .Children }}
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown d-lg-flex align-items-lg-center">
           <a
-            class="nav-link dropdown-toggle{{ if or $isActive $hasActiveChild }} active{{ end }}"
-            href="{{ .URL }}"
-            role="button"
+            class="nav-link{{ if or $isActive $hasActiveChild }} active{{ end }}"
+            href="{{ .URL }}"{{ if $isActive }} aria-current="page"{{ end }}
+          >{{ .Name }}</a>
+          <button
+            type="button"
+            class="nav-link dropdown-toggle dropdown-toggle-split px-2{{ if or $isActive $hasActiveChild }} active{{ end }}"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-          >{{ .Name }}</a>
+          ><span class="visually-hidden">Toggle {{ .Name }} menu</span></button>
           <ul class="dropdown-menu">
             {{- range .Children }}
               <li>
