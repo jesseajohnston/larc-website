@@ -50,6 +50,11 @@
               </p>
               {{ with .Params.talkTitle }}<p class="fst-italic mb-2">&ldquo;{{ . }}&rdquo;</p>{{ end }}
               {{ .Content }}
+              {{ with .Params.links }}
+                <p class="mb-0 small">
+                  {{ range $i, $link := . }}{{ if $i }} &middot; {{ end }}<a href="{{ $link.url }}">{{ $link.label }}</a>{{ end }}
+                </p>
+              {{ end }}
               {{ with .Params.acknowledgment }}<p class="small text-muted mt-2 mb-0">{{ . }}</p>{{ end }}
             </div>
           </div>
