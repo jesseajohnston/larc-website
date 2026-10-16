@@ -45,7 +45,7 @@
               <h3 class="h5 mb-1">{{ .Title }}</h3>
               <p class="small fw-bold text-body-secondary mb-2">
                 {{ .Params.affiliation }}
-                &middot;
+                <br />
                 {{ with .Params.eventDateDisplay }}{{ . }}{{ else }}{{ .Date | time.Format ":date_long" }}{{ end }}
               </p>
               {{ with .Params.talkTitle }}<p class="fst-italic mb-2">&ldquo;{{ . }}&rdquo;</p>{{ end }}
