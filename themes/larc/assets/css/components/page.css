@@ -29,3 +29,14 @@
     width: 10rem;
   }
 }
+
+.btn-primary {
+  --bs-btn-bg: var(--blue-400);
+  --bs-btn-border-color: var(--blue-400);
+  --bs-btn-hover-bg: var(--blue-500);
+  --bs-btn-hover-border-color: var(--blue-500);
+  --bs-btn-active-bg: var(--blue-500);
+  --bs-btn-active-border-color: var(--blue-500);
+  --bs-btn-disabled-bg: var(--blue-400);
+  --bs-btn-disabled-border-color: var(--blue-400);
+}
