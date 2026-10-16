@@ -4,6 +4,9 @@ date: 2023-11-17
 affiliation: "University of the Western Cape & University of Michigan"
 image: "talks/202311_odendaal.png"
 term: "Fall 2023"
+links:
+  - label: "Details page"
+    url: "https://www.si.umich.edu/about-umsi/events/data-archives-and-information-society-seminar-andre-odendaal-and-anthea-josias"
 ---
 
 André Odendaal is the vice-chancellor's writer-in-residence and an honorary professor in history and heritage studies at the University of the Western Cape (UWC). He received his first degrees from Stellenbosch University and his PhD from Cambridge University. Thereafter, he spent 13 years at the University of the Western Cape, where he started and directed the pioneering Mayibuye Center for History and Culture in South Africa, with its large multi-media archive on apartheid and the liberation struggle. Here he launched the Mayibuye History and Literature Series and, as joint series editor, oversaw the publication of 85 books on South African history (including the re-issuing of many titles of the previously banned International Defence and Aid Fund for Southern Africa).
