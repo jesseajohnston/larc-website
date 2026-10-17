@@ -86,7 +86,7 @@ faculty:
     photo: "david_wallace.png"
     links:
       - label: "Google Scholar"
-        url: "https://scholar.google.com/citations?user=Z35CeHAAAAAJ"
+        url: "https://scholar.google.com/citations?user=FmcSqWUAAAAJ"
 
 phd_students:
   - name: Nazelie Doghramadjian
