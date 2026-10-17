@@ -6,10 +6,10 @@ The Libraries, Archives, and digital Curation research group, also known as LARC
 
 Our members work in a variety of research areas:
 
-- Epistemic infrastructures and Knowledge infrastructures
+- Epistemic infrastructures and Knowledge environments
 - Archival science and librarianship
 - Digital curation
-- Digital preservation and curation
+- Digital preservation
 - Community-based archives and recordkeeping
 - Information literacy
 - Data literacy, curation, sharing, and reuse
