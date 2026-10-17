@@ -3,6 +3,8 @@ faculty:
     bio: "Dallas Card is an Assistant Professor in the School of Information, where he works at the intersection of machine learning, natural language processing, and data science. Prior to joining the University of Michigan, he was a postdoctoral scholar with the Stanford NLP group and Data Science Institute. He holds a PhD in Machine Learning from Carnegie Mellon University."
     photo: "dallas_card.jpg"
     links:
+      - label: "UMSI faculty page"
+        url: "https://si.umich.edu/people/dallas-card"
       - label: "Google Scholar"
         url: "https://scholar.google.com/citations?user=qH-rJV8AAAAJ"
   - name: Rebecca Frank
