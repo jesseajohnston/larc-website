@@ -127,7 +127,9 @@ campus_affiliates:
   - name: Alexis Antracoli
     bio: "Alexis Antracoli is the Director of the Bentley Historical Library at the University of Michigan."
     photo: "alexis_antracoli.jpg"
-    links: []
+    links:
+      - label: "Bentley Historical Library page"
+        url: "https://bentley.umich.edu/about/directors-note/"
   - name: Lisa R. Carter
     bio: "Lisa Carter is the University Librarian and Dean of Libraries at the University of Michigan. Carter is also a Clinical Professor at the School of Information."
     photo: "lisa_carter.png"
