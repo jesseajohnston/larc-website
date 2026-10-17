@@ -100,6 +100,9 @@ phd_students:
     links:
       - label: "Google Scholar"
         url: "https://scholar.google.com/citations?hl=en&user=GN8OxvgAAAAJ"
+  - name: Moyan Deng
+    bio: "Moyan Deng is a doctoral student at the University of Michigan School of Information. Her current research interest focus on digital curation, with a particular interest in how different stakeholders interact with and shape practices of managing, preserving, and providing access to digital information and cultural resources. Prior to joining the University of Michigan, her research focused on public library services and library standardization in China. She participated in multiple provincial- and ministerial-level research projects and used qualitative research methods to investigate interactions among government agencies, cultural and information service institutions, and the public."
+    photo: "moyan_deng.jpg"
   - name: Jian-Sin Lee
     bio: "PhD Student, University of Michigan School of Information."
     links:
