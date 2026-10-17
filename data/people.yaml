@@ -85,6 +85,8 @@ faculty:
     bio: "David Wallace is Clinical Associate Professor at UMSI and has published and presented in a wide range of professional forums, examining: recordkeeping and accountability; archiving and the shaping of the present and the past; archival social justice; freedom of information; government secrecy; professional ethics; electronic records management; and graduate archival education. Wallace has served as lead editor and contributor to Archives, Recordkeeping & Social Justice (2020); editor of a special double issue of Archival Science on \"Archives and the Ethics of Memory Construction\" (2011); co-editor of Archives and the Public Good: Accountability and Records in Modern Society (2002), and served as the series technical editor for twelve volumes of the National Security Archive's The Making of U.S. Policy series (1989-1992)."
     photo: "david_wallace.png"
     links:
+      - label: "UMSI faculty page"
+        url: "https://www.si.umich.edu/people/david-wallace"
       - label: "Google Scholar"
         url: "https://scholar.google.com/citations?user=FmcSqWUAAAAJ"
 
