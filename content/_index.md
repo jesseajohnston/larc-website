@@ -8,17 +8,17 @@ Our members work in a variety of research areas:
 
 - Epistemic infrastructures and Knowledge environments
 - Archival science and librarianship
-- Digital curation
-- Digital preservation
 - Community-based archives and recordkeeping
-- Public libraries
+- Digital curation
+- Digital libraries and collections
+- Digital preservation
+- Data literacy, curation, sharing, and reuse
+- Information behavior
 - Information equity/Information resilience
 - Information literacy
-- Data literacy, curation, sharing, and reuse
-- Digital libraries and collections
 - Information accessibility
-- Information behavior
 - Museum informatics
+- Public libraries
 - Recordkeeping practices
 - Human rights and social justice
 - Reparative practices and approaches in cultural institutions
