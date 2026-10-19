@@ -11,6 +11,8 @@ Our members work in a variety of research areas:
 - Digital curation
 - Digital preservation
 - Community-based archives and recordkeeping
+- Public libraries
+- Information equity/Information resilience
 - Information literacy
 - Data literacy, curation, sharing, and reuse
 - Digital libraries and collections
