@@ -23,6 +23,7 @@ prompt you to open a PR.
 
    ```yaml
    - name: William Bishop
+     sort: "bishop"
      bio: "Former University Librarian at University of Michigan..."
      photo: "william_bishop.jpg"
      links: []
@@ -37,6 +38,24 @@ Open `data/people.yaml`, find the person under their group (`faculty`, `phd_stud
 or `campus_affiliates`), and edit the `bio` field directly. It's a single-line quoted
 string — keep it on one line and make sure it stays wrapped in double quotes.
 
+## Add a person, and set their sort order
+
+People on the people page are sorted within groups alphabetically by the `sort` field. Every
+person entry should include one. Set it by the name by which you would like to be listed in alphabetical order. For example, for "William Bishop" the sort might be "bishop," as follows:
+
+```yaml
+- name: William Bishop
+  sort: "bishop"
+  bio: "..."
+  etc . . . 
+```
+
+- The sort index should be lowercase with no punctuation
+- If two people share a last name, add a second sort value to be more specific (e.g. `"bishop w"`)
+- A person without a `sort` value is not placed alphabetically, so don't leave it out.
+
+New person entries can be placed anywhere within the overall person group (faculty, PhD students, affiliates) and will be sorted according to the `sort` field.
+
 ## Add a Google Scholar (or other) link
 
 Each person has a `links` list. Add a new entry with a `label` (what the link text says)
@@ -44,6 +63,7 @@ and a `url`:
 
 ```yaml
 - name: William Bishop
+  sort: "bishop"
   bio: "..."
   photo: "william_bishop.jpg"
   links:
