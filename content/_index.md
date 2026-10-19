@@ -15,7 +15,7 @@ Our members work in a variety of research areas:
 - Data literacy, curation, sharing, and reuse
 - Digital libraries and collections
 - Information accessibility
-- Information seeking behavior
+- Information behavior
 - Museum informatics
 - Recordkeeping practices
 - Human rights and social justice
