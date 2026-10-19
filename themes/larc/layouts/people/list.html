@@ -23,7 +23,7 @@
 
   {{ range $groups }}
     {{ $label := .label }}
-    {{ $people := index hugo.Data.people .key }}
+    {{ $people := sort (index hugo.Data.people .key) "sort" }}
     {{ if $people }}
       <div class="section-band py-5">
         <div class="container">
