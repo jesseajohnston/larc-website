@@ -80,6 +80,8 @@ faculty:
     bio: "Ricardo Punzalan, Ph.D., previously taught at the University of the Philippines School of Library and Information Studies and the University of Maryland College of Information Studies. He has worked on a variety of archival projects in the Philippines, which include establishing the archives of a former leprosarium and curated a museum exhibit for the centennial of its founding as a segregation facility. He co-directs the ReConnect/ReCollect Project, which surveyed the Philippine Collections at the University of Michigan and initiated a program to digitally connect, return, and reparatively describe these collections with source communities. He has served on the Council of the Society of American Archivists, the organization's highest governing body, and in 2023 was named a Fellow of the Society of American Archivists. He currently directs UM's Museum Studies Program in addition to serving on the faculty of UMSI."
     photo: "ricardo_punzalan.jpg"
     links:
+      - label: "rpunzalan.com"
+        url: "https://rpunzalan.com/"
       - label: "ORCID: 0000-0003-1384-0845"
         url: "https://orcid.org/0000-0003-1384-0845"
       - label: "Google Scholar"
